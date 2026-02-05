@@ -6,7 +6,7 @@ const db = require('../config/database');
 router.get('/', function(req, res) {
   res.json({
     status: "success",
-    message: "My API is running 🚀",
+    message: "My API is running ",
     timestamp: new Date()
   });
 });
